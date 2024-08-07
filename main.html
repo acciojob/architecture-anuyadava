@@ -4,10 +4,83 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 1100px;
+            margin: 0 auto;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        .first-column {
+            width: 200px;
+        }
+        .middle-column {
+            width: 600px;
+        }
+        .last-column {
+            width: 200px;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	    <div class="container">
+        <h1>Architectural Information</h1>
+
+        <div class="imageContainer">
+            <img src="path/to/your/image.jpg" alt="Architectural Image">
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="first-column">Image</th>
+                    <th class="middle-column">Text Content</th>
+                    <th class="last-column">Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="first-column"><img src="path/to/your/image1.jpg" alt="Image 1" style="width: 100%; height: auto;"></td>
+                    <td class="middle-column">Detailed description or text content about the architectural aspect.</td>
+                    <td class="last-column"><img src="path/to/your/image2.jpg" alt="Image 2" style="width: 100%; height: auto;"></td>
+                </tr>
+                <tr>
+                    <td class="first-column"><img src="path/to/your/image3.jpg" alt="Image 3" style="width: 100%; height: auto;"></td>
+                    <td class="middle-column">Another detailed description or text content about the architectural aspect.</td>
+                    <td class="last-column"><img src="path/to/your/image4.jpg" alt="Image 4" style="width: 100%; height: auto;"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
